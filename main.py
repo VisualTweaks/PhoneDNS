@@ -60,26 +60,4 @@ result = pyfiglet.figlet_format("PhoneDNS")
 print(result)
 print(l)
 
-if os.name == "nt":
-    os.system('cls')
-elif os.name == "posix":
-    os.system('clear')
-t(3)
-
-os.system('python osint.py')
-
-if os.name == "nt":
-    os.system('cls')
-elif os.name == "posix":
-    os.system('clear')
-t(3)
-
-os.system('python Osint2.py')
-
-if os.name == "nt":
-    os.system('cls')
-elif os.name == "posix":
-    os.system('clear')
-t(3)
-
 service_nmber = phonenumbers.parse(number, "CH")
